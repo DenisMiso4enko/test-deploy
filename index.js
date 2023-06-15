@@ -11,7 +11,7 @@ router.get("/", (req, res, next) => {
 	res.send('Hello World!')
 })
 
-app.listen(PORT, () => {
+app.listen(PORT || 3333, () => {
 	console.log(`port start ${PORT}`)
 })
 
